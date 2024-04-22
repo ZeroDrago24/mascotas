@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 2;
+}
+
+header {
+    background-color: #d0af5a; 
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    padding: 0 20px;
+}
+img{ 
+    max-width: 200px;
+    max-height: 200px;
+    right: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(44, 137, 106);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+}
+
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#inicio {
+    background-color: #c85ad0;
+}
+
+#requisitos {
+    background-color: #ffb74d;
+}
+
+#preguntas_frecuentes {
+    background-color: #f06292;
+}
+
+#consultar_animales {
+    background-color: #90caf9;
+}
+
+#mis_solicitudes {
+    background-color: #a5d6a7;
+}
+
+
+footer {
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.botones-y-enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Ajuste del margen inferior */
+}
+
+.botones-y-enlaces button,
+.botones-y-enlaces a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.imagen {
+    margin-right: 20px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+}
+
+.botones button {
+    margin-bottom: 10px;
+}
+
+.botones-y-enlaces button:hover,
+.botones-y-enlaces a:hover {
+    background-color: #0056b3; 
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        background-color: #ffb74d; 
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        background-color: #f06292; 
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
